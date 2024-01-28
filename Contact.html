@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+  <style>
+         .para{
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+para-text{
+    padding-top: 130px;
+    color: white !important;
+    font-weight: 300px;
+}
+  </style>
+</head>
+
+<header>
+    <div class="navbar-fixed">
+    <nav class="white">
+        <div class="nav-wrapper">
+            <a href="#!" class="sidenav-trigger" data-target="menu"><i class="material-icons brown-text text-darken-3">menu</i></a>
+            <a href="#!" class="brand-logo black-text" style="padding-left: 10px;;">Ada's<span class="brown-text text-darken-3">Portfolio</span></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="index.html" class="brown-text text-darken-3">Home</a></li>
+              <li><a href="About.html" class="brown-text text-darken-3" >About</a></li>
+              <li><a href="contact.html"  class="active brown darken-3">Contact</a></li>
+             
+            </ul>
+            </div>
+        </div>
+        
+    </nav>
+    </div>
+    <ul class="sidenav" id="menu">
+        <li><a href="#!" class=" sidenav-close"><i class="material-icons right brown-text text-darken-3">close</i></a></li>
+        <li><a href="index.html" class="brown-text text-darken-3">Home</a></li>
+        <li><a href="About.html" class="brown-text text-darken-3" >About</a></li>
+        <li><a href="contact.html"  class="active brown darken-3">Contact</a></li>
+    </ul>
+  </header>
+
+<section class=" section ">
+    <section id="contact" class="scrollspy" style="padding-top: 80px; padding-bottom: 50px">
+        <h4 class="center-align">Contact</h4>
+        <div class="container">
+                    <div class="row hide-on-med-and-down">
+                        <div class="col s12 l5" >
+                            <img src="buk.jpg" alt="" class="responsive-img hide-on-med-and-down" >
+                        </div>
+                        <div class="col s12 l6 offset-l1">
+                            <form method="post" class="form" data-netlify="true">
+                                <div class="input-field">
+                                    <i class="material-icons prefix white-text">account_circle</i>
+                                    <input id="fname" type="text" class="validate" name="fname" required>
+                                    <label for="fname">Name</label>
+                                </div>
+                                <div class="input-field">
+                                    <i class="material-icons prefix white-text">email</i>
+                                    <input id="femail" type="email" class="validate" name="femail" required>
+                                    <label for="femail">Email</label>
+                                </div>
+                                <div class="input-field">
+                                    <i class="material-icons prefix white-text">subject</i>
+                                    <input id="fsub" type="text" class="validate" name="fsub" required>
+                                    <label for="fsub">Subject</label>
+                                </div>
+                                <div class="input-field">
+                                    <i class="material-icons prefix white-text">edit</i>
+                                    <textarea name="message" id="fmsg" cols="30" rows="10" class="materialize-textarea"></textarea>
+                                    <label for="fmsg">Message</label>
+                                </div>
+                                <button class="brown darken-3 btn " type="submit" style="border-radius: 50px;">Send message</button>
+                            </form>
+                    
+                </div>
+                </div>
+                
+        <div class="card z-depth-5 hoverable hide-on-large-only" id="black">
+            <div class="card-content">
+                <div class="row">
+                    <div class="col s12 l12">
+                        <form method="post" data-netlify="true">
+                            <div class="input-field">
+                                <i class="material-icons prefix white-text">account_circle</i>
+                                <input id="name" type="text" class="validate" name="name" required>
+                                <label for="name">Name</label>
+                            </div>
+                            <div class="input-field">
+                                <i class="material-icons prefix white-text">email</i>
+                                <input id="email" type="email" name="email" class="validate" required>
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input-field">
+                                <i class="material-icons prefix white-text">call</i>
+                                <input id="sub" type="text" name="sub" class="validate" required>
+                                <label for="sub">Subject</label>
+                            </div>
+                            <div class="input-field">
+                                <i class="material-icons prefix white-text">edit</i>
+                                <textarea name="message" id="msg" cols="30" rows="10" class="materialize-textarea"></textarea>
+                                <label for="msg">Message</label>
+                            </div>
+                            <button class="brown darken-3 btn center-align" type="submit" style="border-radius: 50px;" >Send message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+    </section>
+</section>
+
+<footer class="page-footer brown darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l5 s12">
+          
+          <h5 class="white-text">Connect</h5>
+          <p>If you are interested in my website and have any other things to add,please<br> contact me on this internet platforms.</p>
+        </div>
+        <div class="col l4 offset-l2 s12"><br>
+          
+          <ul>
+            <li><a href="#!" target ="_blank" class=" btn-floating btn-small" style="background-color: rgba(0, 0, 0, 0.7)" data-position="bottom" data-tooltip="Instagram"> 
+              <i class="fab fa-instagram"></i>
+            </a>   Instagram</li><br>
+            <li><a href="#!" target ="_blank" class=" btn-floating btn-small" style="background-color: rgba(0, 0, 0, 0.7)" data-position="bottom" data-tooltip="Facebook">
+              <i class="fab fa-facebook"></i>
+            </a>   Facebook</li><br>
+            <li><a href="#!" class=" btn-floating btn-small" style="background-color: rgba(0, 0, 0, 0.7)" target ="_blank" data-position="bottom" data-tooltip="twitter">
+              <i class="fab fa-twitter"></i>
+            </a>   Twitter</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright" style="background-color: rgba(0, 0, 0, 0.7)">
+      <div class="container center-align">Adaeze @2024</div>
+    </div>
+  </footer>
+    
+
+
+
+    
+                  <script src="materialize/js/jquery.js"></script>
+                  <script src="materialize/js/materialize.min.js"></script>
+                  <script>
+                    $(document).ready(function(){
+                  
+                      $('.sidenav').sidenav();
+                      $('.materialboxed').materialbox();
+                      $('.parallax').parallax();
+                      $('.tabs').tabs();
+                      $('.datepicker').datepicker({
+                        disableWeekends: true,
+                        yearRange: 1
+                      });
+                      $('.tooltipped').tooltip();
+                      $('.scrollspy').scrollSpy();
+                  
+                    });
+                  </script>
+
+  </body>
+
+  </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ 
